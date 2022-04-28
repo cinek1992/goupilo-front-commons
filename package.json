@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jawblia/npm-test.git"
+    "url": "git+https://github.com/cinek1992/goupilo-front-commons.git"
   },
   "publishConfig": {
     "@cinek1992:registry": "https://npm.pkg.github.com"
