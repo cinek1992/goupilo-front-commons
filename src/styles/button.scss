@@ -1,0 +1,129 @@
+button.MuiButton-root {
+  font-weight: bold;
+  font-family: Poppins, serif !important;
+  height: 46px;
+  background-color: #1D6AFF !important;
+  color: #FFFFFF !important;
+  border-radius: 5px !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  text-transform: none !important;
+  padding: 10px 19px;
+
+  &:hover {
+    background-color: #1D6AFF;
+    color: #FFFFFF;
+  }
+
+  &.secondary {
+    background-color: #FFFFFF !important;
+    border: 1px solid #1D6AFF !important;
+    color: #1D6AFF !important;
+
+    &:hover {
+      //filter: drop-shadow(0px 16px 29px rgba(29, 106, 255, 0.3));
+    }
+  }
+
+  &.color1 {
+    background-color: #DFEAFF !important;
+    color: #1D6AFF !important;
+  }
+
+  &.navbar {
+    height: 46px !important;
+    background-color: #F2F7FF !important;
+    color: #1B489F !important;
+    svg {
+      height:13px;
+    }
+  }
+
+  &.forward {
+    height: 84px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    background-color: #F5F8FF !important;
+    border: none !important;
+    color: #1D6AFF !important;
+  }
+
+  &.danger {
+    background-color: #FFFFFF !important;
+    border: 1px solid #FF593E !important;
+    color: #FF593E !important;
+  }
+
+  &.small {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 32px;
+    font-size: 12px !important;
+  }
+
+  &[disabled] {
+    color: lightgray !important;
+  }
+
+  &.icon {
+    background-color: #EAF1FF !important;
+    border-radius: 46px !important;
+    padding: 0;
+    min-width: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      margin-left: 4px;
+    }
+  }
+
+  &.social {
+
+    background-color: white !important;
+    border: 1.5px solid #E9E9E9 !important;
+    letter-spacing: normal !important;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    width: 100%;
+
+    svg {
+      margin-left: 24px;
+      margin-right: 18px;
+    }
+
+    &.google {
+      color: #686868 !important;
+    }
+
+    &.fb {
+      color: #3B5998 !important;
+    }
+
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  .loader {
+    margin-left: 14px;
+  }
+
+  &.icon-right {
+    svg {
+      margin-left: 10px;
+    }
+  }
+
+  &:not(.icon-right) {
+    svg {
+      margin-right: 10px;
+    }
+  }
+
+}
