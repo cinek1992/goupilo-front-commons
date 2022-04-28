@@ -4,7 +4,6 @@
   "author": "",
   "keywords": [],
   "version": "0.0.3",
-  "private": true,
   "main": "dist/index.js",
   "module": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -25,7 +24,8 @@
   },
   "scripts": {
     "sass": "sass src/styles/main.scss src/App.css",
-    "build": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files"
+    "build": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files",
+    "test": "exit 0"
   },
   "eslintConfig": {
     "extends": [
